@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecoveryActivity"
+    android:background="@drawable/gambar_2"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/etemailrecovery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/tombol_2"
+        android:hint="Email"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_marginTop="-40dp"
+        android:layout_marginStart="-260dp"
+        android:layout_width="124dp"
+        android:layout_height="45dp"
+        android:background="@drawable/tombol_1"
+        android:layout_gravity="center"
+        android:text="Send Email"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        app:backgroundTint="@color/white" />
+
+</LinearLayout>

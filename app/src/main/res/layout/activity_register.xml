@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar_3"
+    tools:context=".RegisterActivity"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/tombol_2"
+        android:hint="Email"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/tebal" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="-390dp"
+        android:layout_marginEnd="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol_2"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/tebal" />
+
+    <EditText
+        android:id="@+id/etconfirmpassword"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="-390dp"
+        android:layout_marginEnd="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol_2"
+        android:hint="Comfirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/tebal" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="-260dp"
+        android:layout_width="124dp"
+        android:layout_height="45dp"
+        android:background="@drawable/tombol_1"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        app:backgroundTint="@color/white" />
+
+</LinearLayout>

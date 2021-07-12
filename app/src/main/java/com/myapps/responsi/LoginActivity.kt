@@ -3,12 +3,14 @@ package com.myapps.responsi
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 
 class LoginActivity : AppCompatActivity() {
 
     lateinit var tvtorecovery : TextView
     lateinit var tvtoregister : TextView
+    lateinit var btnlogin : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,6 +18,7 @@ class LoginActivity : AppCompatActivity() {
 
         tvtorecovery = findViewById(R.id.tvtorecovery)
         tvtoregister = findViewById(R.id.tvtoregister)
+        btnlogin = findViewById(R.id.btnlogin)
 
         tvtorecovery.setOnClickListener {
             val intent = Intent (this@LoginActivity, RecoveryActivity::class.java)
@@ -27,5 +30,9 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        btnlogin.setOnClickListener {
+            val intent = Intent (this@LoginActivity, HomeActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

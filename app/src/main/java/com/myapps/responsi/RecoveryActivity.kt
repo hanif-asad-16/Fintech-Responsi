@@ -8,14 +8,5 @@ class RecoveryActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recovery)
 
-        val actionbar = supportActionBar
-        actionbar!!.title = "Recovery Account"
-
-        actionbar.setDisplayHomeAsUpEnabled(true)
-    }
-
-    override fun onSupportNavigateUp(): Boolean {
-        onBackPressed()
-        return true
     }
 }

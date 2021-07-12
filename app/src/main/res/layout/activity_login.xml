@@ -9,7 +9,7 @@
     android:orientation="horizontal">
 
     <EditText
-        android:id="@+id/etemail"
+        android:id="@+id/etemaillogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -71,7 +71,7 @@
         android:id="@+id/tvtorecovery"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-9dp"
+        android:layout_marginLeft="-6dp"
         android:layout_marginTop="500dp"
         android:text="Here"
         android:fontFamily="@font/tebal"
@@ -93,7 +93,7 @@
         android:id="@+id/tvtoregister"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-9dp"
+        android:layout_marginLeft="-6dp"
         android:layout_marginTop="535dp"
         android:text="Here"
         android:fontFamily="@font/tebal"
